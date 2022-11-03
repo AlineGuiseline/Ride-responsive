@@ -1,0 +1,253 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    position: absolute;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    cursor: pointer;
+    margin: 47px 36px 0 42px;
+}
+
+a {
+    margin-right: 36px;
+}
+
+a:hover{
+    opacity: 0.8;
+}
+
+a:active{
+    opacity: 0.5;
+}
+
+#header-button{
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 420px;
+}
+
+#header-button:hover{
+    opacity: 0.8;
+}
+
+#header-button:active{
+    opacity: 0.6;
+}
+
+main{
+    display: inline-block;
+}
+
+img{
+    display:inline-block;
+    margin: 190px 84.82px 0 121px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    width: 582px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    width: 493px;
+}
+
+#main-button {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    margin-top: 55px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+#main-button:hover{
+    opacity: 0.6;
+}
+
+#main-button:active{
+    opacity: 0.4;
+}
+
+@media screen and (max-width: 450px){
+    header{
+        display: none;
+    }
+
+    #header-button {
+        background: #6FBF44;
+        border: 1px solid #4CB538;
+        border-radius: 6px;
+        position: absolute;
+        width: 91px;
+        height: 31px;
+        margin: 5% 0 0 75%;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    img {
+        width: 80%;
+        height: 40%;
+        margin: 115% 5% 0% 10%;
+        position: absolute;
+    }
+
+
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #161A49;
+        position: absolute;
+        margin: 25% 5% 0 10%;
+        width: 80%;
+    }
+
+    p {
+        font-size: 18px;
+        text-align: center;
+        color: #4B505A;
+        width: 80%;
+        position: absolute;
+        margin: 53% 5% 0 10%;
+    }
+
+    #main-button{
+        position: absolute;
+        margin: 95% 35% 0 35%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    header{
+        display: none;
+    }
+
+    #header-button {
+        background: #6FBF44;
+        border: 1px solid #4CB538;
+        border-radius: 6px;
+        position: absolute;
+        width: 91px;
+        height: 31px;
+        margin: 5% 0 0 75%;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    img {
+        width: 80%;
+        height: 45%;
+        margin: 110% 5% 0% 10%;
+        position: absolute;
+    }
+
+    h1 {
+        line-height: 40px;
+        text-align: center;
+        color: #161A49;
+        position: absolute;
+        margin: 20% 5% 0 10%;
+        width: 80%;
+    }
+
+    p {
+        text-align: center;
+        color: #4B505A;
+        width: 80%;
+        position: absolute;
+        margin: 45% 5% 0 10%;
+    }
+
+    #main-button{
+        position: absolute;
+        margin: 95% 30% 0 35%;
+    }
+}
+
+@media screen and (max-width: 350px){
+    header{
+        display: none;
+    }
+
+    #header-button {
+        background: #6FBF44;
+        border: 1px solid #4CB538;
+        border-radius: 6px;
+        position: absolute;
+        width: 91px;
+        height: 31px;
+        margin: 5% 0 0 65%;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    img {
+        width: 70%;
+        height: 40%;
+        margin: 100% 5% 0% 15%;
+        position: absolute;
+    }
+
+
+    h1 {
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+        color: #161A49;
+        position: absolute;
+        margin: 25% 5% 0 10%;
+        width: 80%;
+    }
+
+    p {
+        font-size: 13px;
+        text-align: center;
+        color: #4B505A;
+        width: 80%;
+        position: absolute;
+        margin: 40% 5% 0 10%;
+    }
+
+    #main-button{
+        font-size: 13px;
+        position: absolute;
+        margin: 82% 35% 0 35%;
+    }
+}
