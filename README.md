@@ -1,5 +1,4 @@
-# Ride-responsive
-
+# Ride
 
 >DevClub
 
